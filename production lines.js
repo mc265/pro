@@ -5,7 +5,7 @@ Highcharts.chart('container', {
   
     },
     title: {
-        text: '',
+        text: 'Production quantity of key forest products over time',
         align: 'left'
     },
        subtitle: {
