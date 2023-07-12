@@ -8,11 +8,9 @@ Highcharts.chart('container', {
         text: '',
         align: 'left'
     },
-    subtitle: {
-        text: 'Source: ' +
-            '<a href="https://www.fao.org/faostat/en/#data/FO"' +
-            'target="_blank">FAOSTAT</a>'
-
+       subtitle: {
+        text: 'Data Source: <a href="https://www.fao.org/faostat/en/#data/FO">FAOSTAT forestry</a>.',
+        align: 'left'
     },
     
     xAxis: [{ title: {
