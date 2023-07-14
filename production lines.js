@@ -1,17 +1,19 @@
 Highcharts.chart('container', {
     chart: {
         zoomType: 'xy',
+         margin: [160, 100, 100, 150]
      
   
     },
-    title: {
-        text: 'Production of key forest products over time. Mouse over to view values',
+ title: {
+        text: 'Production of key forest products ',
         align: 'left'
     },
        subtitle: {
-        text: 'Data Source: <a href="https://www.fao.org/faostat/en/#data/FO">FAOSTAT forestry</a>.',
+        text: 'Data Source: <a href="https://www.fao.org/faostat/en/#data/FO">FAOSTAT Forestry</a>.',
         align: 'left'
     },
+    
     
     xAxis: [{ title: {
             enabled: true,
@@ -91,9 +93,9 @@ Highcharts.chart('container', {
     },
     legend: {
         align: 'left',
-        x: 200,
+        x: 0,
         verticalAlign: 'top',
-        y: 200,
+        y: 0,
         floating: false,
         backgroundColor:
             Highcharts.defaultOptions.legend.backgroundColor || // theme
@@ -198,4 +200,5 @@ Highcharts.chart('container', {
         }
     }]
 });
+
 
